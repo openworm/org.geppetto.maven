@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Bnd-LastModified: 1410914961108
+Build-Jdk: 1.7.0_21
+Built-By: lhazlewood
+Bundle-ManifestVersion: 2
+Bundle-Name: stormpath-shiro-core-0.6.0
+Bundle-SymbolicName: stormpath-shiro-core-0.6.0
+Bundle-Version: 0
+Created-By: 1.7.0_51 (Oracle Corporation)
+Export-Package: com.stormpath.shiro.authz;uses:="com.stormpath.sdk.direc
+ tory,com.stormpath.sdk.lang,org.apache.shiro.util",com.stormpath.shiro.
+ cache;uses:="com.stormpath.sdk.lang,org.apache.shiro.cache,com.stormpat
+ h.sdk.cache",com.stormpath.shiro.client;uses:="com.stormpath.sdk.client
+ ,com.stormpath.shiro.cache,org.apache.shiro.cache,com.stormpath.sdk.cac
+ he,org.apache.shiro.util",com.stormpath.shiro.realm;uses:="com.stormpat
+ h.sdk.account,com.stormpath.sdk.directory,org.apache.shiro.authz,org.ap
+ ache.shiro.authc,com.stormpath.sdk.client,org.apache.shiro.authc.creden
+ tial,com.stormpath.sdk.resource,org.apache.shiro.util,org.apache.shiro.
+ subject,com.stormpath.sdk.authc,com.stormpath.sdk.ds,org.apache.shiro.r
+ ealm,com.stormpath.sdk.group,com.stormpath.sdk.application,org.apache.s
+ hiro.cache,com.stormpath.shiro.authz,org.apache.shiro.authz.permission"
+Import-Package: com.stormpath.sdk.account;resolution:=optional,com.storm
+ path.sdk.application;resolution:=optional,com.stormpath.sdk.authc;resol
+ ution:=optional,com.stormpath.sdk.cache;resolution:=optional,com.stormp
+ ath.sdk.client;resolution:=optional,com.stormpath.sdk.directory;resolut
+ ion:=optional,com.stormpath.sdk.ds;resolution:=optional,com.stormpath.s
+ dk.group;resolution:=optional,com.stormpath.sdk.lang;resolution:=option
+ al,com.stormpath.sdk.resource;resolution:=optional,org.apache.shiro.aut
+ hc;resolution:=optional,org.apache.shiro.authc.credential;resolution:=o
+ ptional,org.apache.shiro.authz;resolution:=optional,org.apache.shiro.au
+ thz.permission;resolution:=optional,org.apache.shiro.cache;resolution:=
+ optional,org.apache.shiro.realm;resolution:=optional,org.apache.shiro.s
+ ubject;resolution:=optional,org.apache.shiro.util;resolution:=optional
+Originally-Created-By: Apache Maven 3.2.1
+Tool: Bnd-1.50.0
