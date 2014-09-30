@@ -3,11 +3,10 @@
   <groupId>com.stormpath.sdk</groupId>
   <artifactId>stormpath-sdk-api</artifactId>
   <versioning>
-    <release>1.0.RC2.osgi</release>
+    <release>1.0.RC2</release>
     <versions>
       <version>1.0.RC2</version>
-      <version>1.0.RC2.osgi</version>
     </versions>
-    <lastUpdated>20140930204954</lastUpdated>
+    <lastUpdated>20140930205649</lastUpdated>
   </versioning>
 </metadata>
