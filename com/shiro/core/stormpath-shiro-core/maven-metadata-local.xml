@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.shiro.core</groupId>
+  <artifactId>stormpath-shiro-core</artifactId>
+  <versioning>
+    <release>0.6.0.osgi</release>
+    <versions>
+      <version>0.6.0.osgi</version>
+    </versions>
+    <lastUpdated>20140930205110</lastUpdated>
+  </versioning>
+</metadata>
