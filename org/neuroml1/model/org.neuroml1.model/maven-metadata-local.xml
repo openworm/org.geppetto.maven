@@ -3,10 +3,11 @@
   <groupId>org.neuroml1.model</groupId>
   <artifactId>org.neuroml1.model</artifactId>
   <versioning>
-    <release>1.5.2</release>
+    <release>1.5.3</release>
     <versions>
       <version>1.5.2</version>
+      <version>1.5.3</version>
     </versions>
-    <lastUpdated>20170707130905</lastUpdated>
+    <lastUpdated>20170905163306</lastUpdated>
   </versioning>
 </metadata>
