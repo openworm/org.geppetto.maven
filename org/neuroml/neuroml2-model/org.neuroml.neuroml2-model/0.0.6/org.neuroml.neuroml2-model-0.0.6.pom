@@ -6,13 +6,13 @@
 	<packaging>bundle</packaging>
 	<groupId>org.neuroml.neuroml2-model</groupId>
 	<artifactId>org.neuroml.neuroml2-model</artifactId>
-	<version>0.0.5</version>
+	<version>0.0.6</version>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.lemsml.model</groupId>
 			<artifactId>org.lemsml.model</artifactId>
-			<version>0.0.4</version>
+			<version>0.0.5</version>
 		</dependency>
 
 
@@ -24,7 +24,7 @@
 
 	</dependencies>
 
-
+<!--
 	<pluginRepositories>
 		<pluginRepository>
 			<id>jitpack.io</id>
@@ -55,7 +55,7 @@
 				<updatePolicy>always</updatePolicy>
 			</snapshots>
 		</repository>
-	</repositories>
+	</repositories>-->
 
 	<build>
 		<plugins>
@@ -81,12 +81,12 @@
 					<dependency>
 						<groupId>org.lemsml.lems-domogen-maven-plugin</groupId>
 						<artifactId>org.lemsml.lems-domogen-maven-plugin</artifactId>
-						<version>0.4</version>
+						<version>0.5</version>
 					</dependency>
 				</dependencies>
 				<groupId>org.lemsml.lems-domogen-maven-plugin</groupId>
 				<artifactId>org.lemsml.lems-domogen-maven-plugin</artifactId>
-				<version>0.4</version>
+				<version>0.5</version>
 				<configuration>
 					<mlName>neuroml2</mlName>
 					<componentTypeDefs>${project.basedir}/src/main/resources/lems/NeuroML2CoreTypes.xml</componentTypeDefs>

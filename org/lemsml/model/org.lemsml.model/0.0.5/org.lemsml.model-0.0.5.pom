@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.lemsml.model</groupId>
 	<artifactId>org.lemsml.model</artifactId>
-	<version>0.0.4</version>
+	<version>0.0.5</version>
 	<packaging>bundle</packaging>
 	<properties>
 		<build.version2>0.9.0</build.version2>
@@ -39,7 +39,7 @@
 		<dependency>
 			<groupId>org.lemsml.exprparser</groupId>
 			<artifactId>org.lemsml.exprparser</artifactId>
-			<version>0.0.4</version>
+			<version>0.0.5</version>
 		</dependency>
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
@@ -56,48 +56,19 @@
 			<artifactId>xmlunit-core</artifactId>
 			<version>2.2.1</version>
 		</dependency>
-		<dependency>
-			<groupId>com.github.massfords</groupId>
-			<artifactId>jaxb-visitor</artifactId>
-			<version>jaxb-visitor-2.3</version>
-		</dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.massfords/jaxb-visitor -->
+        <dependency>
+            <groupId>com.massfords</groupId>
+            <artifactId>jaxb-visitor</artifactId>
+            <version>2.3</version>
+        </dependency>
+
 
 
 	</dependencies>
 
-	<repositories>
-		<repository>
-			<id>jitpack.io</id>
-			<url>https://jitpack.io</url>
-		</repository>
-		<repository>
-			<id>jcenter</id>
-			<name>JCenter</name>
-			<layout>default</layout>
-			<url>http://jcenter.bintray.com</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-		<repository>
-			<id>snapshots-repo</id>
-			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-		<repository>
-			<id>org.geppetto-mvn-repo</id>
-			<url>https://raw.github.com/openworm/org.geppetto.maven/mvn-repo-nml-1.5.1-lems2</url>
-			<snapshots>
-				<enabled>true</enabled>
-				<updatePolicy>always</updatePolicy>
-			</snapshots>
-		</repository>
-	</repositories>
+
 
 	<build>
 		<plugins>
@@ -187,9 +158,9 @@
 							</schemaIncludes>
 							<plugins>
 								<plugin>
-									<groupId>com.github.massfords</groupId>
-									<artifactId>jaxb-visitor</artifactId>
-									<version>jaxb-visitor-2.3</version>
+                                    <groupId>com.massfords</groupId>
+                                    <artifactId>jaxb-visitor</artifactId>
+                                    <version>2.3</version>
 								</plugin>
 								<plugin>
 									<groupId>org.jvnet.jaxb2_commons</groupId>
