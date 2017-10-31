@@ -1,0 +1,67 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <name>NeuroML2 model lite</name>
+    <url>https://neuroml.org/</url>
+    <packaging>bundle</packaging>
+    <groupId>org.neuroml.neuroml2modelLite</groupId>
+    <artifactId>neuroml2modelLite</artifactId>
+    <version>0.0.7</version>
+
+    <dependencies>
+	
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.neuroml.export</groupId>
+            <artifactId>org.neuroml.export</artifactId>
+            <version>1.5.3</version>
+        </dependency>
+
+    </dependencies>
+    
+	<repositories>
+		<repository>
+			<id>org.geppetto-mvn-repo</id>
+			<url>https://raw.github.com/openworm/org.geppetto.maven/mvn-repo-nml1.5.3</url>
+			<snapshots>
+				<enabled>true</enabled>
+				<updatePolicy>always</updatePolicy>
+			</snapshots>
+		</repository>
+	</repositories>
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>maven-bundle-plugin</artifactId>
+                <version>2.3.7</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <manifestLocation>src/main/java/META-INF</manifestLocation>
+                    <supportedProjectTypes>
+                        <supportedProjectType>jar</supportedProjectType>
+                        <supportedProjectType>bundle</supportedProjectType>
+                    </supportedProjectTypes>
+                    <instructions>
+                        <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
+                        <Bundle-Version>${project.version}</Bundle-Version>
+                    </instructions>
+                </configuration>
+            </plugin>
+        </plugins>
+			
+			
+			
+
+
+    </build>
+
+
+</project>
