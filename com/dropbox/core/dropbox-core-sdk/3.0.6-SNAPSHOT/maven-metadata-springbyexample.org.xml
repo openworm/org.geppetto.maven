@@ -1,0 +1,228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us"> 
+<head>
+<link rel="stylesheet" href="/twiki/pub/TWiki/HeadlinesPlugin/style.css" type="text/css" media="all" />
+ <title>Spring by Example </title>
+ <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=iso-8859-15" /> 
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed/" />
+ <base href="/twiki/bin/view/Main/WebHome" />
+ 
+<link rel="stylesheet" type="text/css" href="/twiki/pub/TWiki/GreenSkin/css/sinorca-screen.css" media="screen" title="GreenSkin (screen)" />
+<link rel="stylesheet alternative" type="text/css" href="/twiki/pub/TWiki/GreenSkin/css/sinorca-screen-alt.css" media="screen" title="GreenSkin (alternative)" />
+<link rel="stylesheet" type="text/css" href="/twiki/pub/TWiki/GreenSkin/css/sinorca-print.css" media="print" />
+ 
+ <link href="/css/prettify.css" type="text/css" rel="stylesheet" />
+ <script type="text/javascript" src="/js/prettify.js"></script>
+</head>
+<body onload="prettyPrint()">
+	 <!-- For non-visual user agents: -->
+		<div id="top"><a href="#main-copy" class="doNotDisplay doNotPrint">Skip to main content.</a></div>
+<a name="PageTop"></a>
+<p />
+	 <div id="header">
+		<div class="midHeader">
+		  <div class="headerTitle">Spring by Example
+                  </div>
+		</div>
+		<div class="subHeader">
+			&nbsp;
+		</div>
+	 </div>
+<p />
+	 <div id="side-bar">
+		<div>
+            <p class="sideBarTitle">Navigation</p>
+
+            <a href="/examples" class="twikiLink">Examples</a>
+            <a href="/examples/module-summary.html#module-summary-downloads" class="twikiLink">Downloads</a>
+		</div>
+		<div>
+			<p class="sideBarTitle">Most Recent Examples</p>
+
+			<a href="/examples/contact-test.html">Contact Application Test</a>
+		    <a href="/examples/contact-webapp.html">Contact Application Webapp</a>
+		    <a href="/examples/contact-rest-services.html">Contact Application REST Services</a>
+		    <a href="/examples/contact-services.html">Contact Application Services</a>
+		    <a href="/examples/contact-ws-beans.html">Contact Application Web Service Beans</a>
+            <p/>
+	</div>
+        <div>
+            <p class="sideBarTitle">Follow on Twitter</p>
+            <a href="http://twitter.com/springbyexample">Spring by Example</a>
+            <a href="http://twitter.com/dwinterfeldt">David Winterfeldt</a>
+            <p/>
+        </div>
+        <div>
+            <p class="sideBarTitle">Follow on Twitter</p>
+            <a href="http://twitter.com/springbyexample">Spring by Example</a>
+            <a href="http://twitter.com/dwinterfeldt">David Winterfeldt</a>
+            <p/>
+        </div>
+	 </div>
+<div id="main-copy">
+<h1><a name="Welcome"></a><a name="_Welcome"></a>  Welcome </h1>
+<p />
+<p>Welcome to Spring by Example.  The site is a general resource for Spring and should ultimately save developers time.</p>
+<p>The <a href="http://springbyexample.blogspot.com/" class="twikiLink">Spring by Example Blog</a> has version information for different site releases.  
+Any comments on a release can be posted and discussed there.</p>
+<p>This site went live in February 2008, and the last two months of 2014 had over 159K unique visitors.
+Thanks to everyone for supporting the site.</p>
+<p />
+<h2><a name="Spring_by_Example_Content"></a>Spring by Example</h2>
+
+<p>
+    <ul>
+        <li>Reference (<a href="/examples">HTML</a> / <a href="/pdf/SpringByExample.pdf">PDF</a>) <strong>updated for Spring Framework 4.1.x</strong></li>
+        <li>Spring 4.0.x Reference (<a href="/static/1.4/html/">HTML</a> / <a href="/static/1.4/pdf/SpringByExample.pdf">PDF</a>)
+            <ul>
+                <li>
+                    <strong>Note</strong>: GWT & Spring dm Server (OSGi) examples have been removed.
+                </li>
+            </ul>
+        </li>
+        <li>Spring 3.2.x Reference (<a href="/static/1.3/html/">HTML</a> / <a href="/static/1.3/pdf/SpringByExample.pdf">PDF</a>)</li>
+        <li>Spring 3.1.x Reference (<a href="/static/1.2.2/html/">HTML</a> / <a href="/static/1.2.2/pdf/SpringByExample.pdf">PDF</a>)
+            <ul>
+                <li>
+                    <strong>Note</strong>: Spring by Example JDBC has been removed since the Spring JDBC Namespace can be used instead.
+                    					   GWT examples have been removed currently and Spring dm Server (OSGi) examples have not been updated.
+                </li>
+            </ul>
+        </li>        
+        <li>Spring 3.0.x Reference (<a href="/static/1.1/html/">HTML</a> / <a href="/static/1.1/pdf/SpringByExample.pdf">PDF</a>)</li>
+        <li>Spring 2.5.x Reference (<a href="/static/1.03/html/">HTML</a> / <a href="/static/1.03/pdf/SpringByExample.pdf">PDF</a>)</li>
+    </ul>
+</p>
+
+<p class="sideBarTitle">Part I: Spring Introduction</p>
+<p>
+    <a href="/examples/preface.html">Preface</a>
+    &bull;
+    <a href="/examples/core-concepts.html">Spring In Context: Core Concepts</a>
+    &bull;
+    <a href="/examples/intro-to-ioc.html">A Practical Introduction to Inversion of Control</a>
+</p>
+    
+<p class="sideBarTitle">Part II: Core</p>
+<p>
+    <a href="/examples/aspectj-ltw.html">AspectJ Load-time Weaving in Spring</a>
+</p>
+
+<p class="sideBarTitle">Part III: Persistence</p>
+<p>
+    <a href="/examples/simple-spring-jdbc-template.html">Simple Spring JDBC Template</a>
+    &bull;
+    <a href="/examples/simple-hibernate-xml-config.html">Simple Hibernate XML Configuration</a>
+    &bull;
+    <a href="/examples/one-to-many-hibernate-xml-config.html">One to Many Hibernate XML Configuration</a>
+    &bull;
+    <a href="/examples/one-to-many-hibernate-annotation-config.html">One to Many Hibernate Annotation Configuration</a>
+    &bull;
+    <a href="/examples/one-to-many-jpa-hibernate-config.html">One to Many JPA Hibernate Configuration</a>
+    &bull;
+    <a href="/examples/spring-data-jpa.html">JPA Joined Inheritance</a>
+    &bull;
+    <a href="/examples/jpa-joined-inheritance.html">Spring Data JPA</a>
+    &bull;
+    <a href="/examples/spring-data-jpa-auditing.html">Spring Data JPA Auditing</a>
+    &bull;
+    <a href="/examples/hibernate-transaction-annotation-config.html">Hibernate Transaction Annotation Configuration</a>
+    &bull;
+    <a href="/examples/simple-spring-transactional-junit4-test.html">Simple Spring Transactional JUnit 4 Test</a>
+</p>
+
+<p class="sideBarTitle">Part IV: Web</p>
+<p>
+    <a href="/examples/simple-tiles-spring-mvc-webapp.html">Simple Tiles 2 Spring MVC Webapp</a>
+    &bull;
+    <a href="/examples/basic-webapp-internationalization.html">Basic Webapp Internationalization</a>
+    &bull;
+    <a href="/examples/simple-spring-mvc-form-annotation-config-webapp.html">Simple Spring MVC Form Annotation Configuration Webapp</a>
+    &bull;
+    <a href="/examples/simple-spring-security-webapp.html">Simple Spring Security Webapp</a>
+    &bull;
+    <a href="/examples/simple-spring-web-flow-webapp.html">Simple Spring Web Flow Webapp</a>
+    &bull;
+    <a href="/examples/spring-web-flow-subflow-webapp.html">Spring Web Flow Subflow Webapp</a>
+    &bull;
+    <a href="/examples/simple-grails-webapp.html">Simple Grails Webapp</a>
+    &bull;
+    <a href="/examples/simple-flex-webapp.html">Simple Flex Webapp</a>
+</p>
+
+<p class="sideBarTitle">Part V: Enterprise</p>
+<p>
+    <a href="/examples/simple-spring-jms.html">Simple Spring JMS</a>
+    &bull;
+    <a href="/examples/simple-spring-web-services.html">Simple Spring Web Services</a>
+    &bull;
+    <a href="/examples/embedded-spring-web-services.html">Embedded Spring Web Services</a>
+    &bull;
+    <a href="/examples/simple-spring-integration.html">Simple Spring Integration</a>
+    &bull;
+    <a href="/examples/spring-jmx.html">Spring JMX</a>
+    &bull;
+    <a href="/examples/spring-modules-jcr-node-creation-retrieval.html">Spring Modules JCR Node Creation &amp; Retrieval</a>
+    &bull;
+    <a href="/examples/velocity-email-template.html">Velocity E-mail Template</a>
+    &bull;
+    <a href="/examples/solr-client.html">Solr Client</a>
+</p>
+
+<p class="sideBarTitle">Part VI: Contact Application</p>
+<p>
+    <a href="/examples/contact-dao.html">Contact Application DAO</a>
+    &bull;
+    <a href="/examples/contact-ws-beans.html">Contact Application Web Service Beans</a>
+    &bull;
+    <a href="/examples/contact-services.html">Contact Application Services</a>
+    &bull;
+    <a href="/examples/contact-rest-services.html">Contact Application REST Services</a>
+    &bull;
+    <a href="/examples/contact-webapp.html">Contact Application Webapp</a>
+    &bull;
+    <a href="/examples/contact-test.html">Contact Application Test</a>
+</p>
+
+<p class="sideBarTitle">Part VII: Modules</p>
+<p>
+    <a href="/examples/custom-servlet-context-scope-module.html">Spring by Example Custom ServletContext Scope Module</a>
+    &bull;
+    <a href="/examples/custom-thread-scope-module.html">Spring by Example Custom Thread Scope Module</a>
+    &bull;
+    <a href="/examples/dynamic-tiles-spring-mvc-module.html">Spring by Example's Dynamic Tiles 2 Spring MVC Module</a>
+    &bull;
+    <a href="/examples/spring-by-example-jcr-module.html">Spring by Example JCR Module</a>
+    &bull;
+    <a href="/examples/spring-by-example-utils-module.html">Spring by Example Utils Module</a>
+    &bull;
+    <a href="/examples/spring-by-example-web-module.html">Spring by Example Web Module</a>
+    &bull;
+    <a href="/examples/spring-modules-validation-module.html">Spring Modules Validation</a>
+</p>
+
+<p />
+<p />
+<p />
+	 <div id="footer">
+		  <div class="left">
+		  </div>
+		  <div class="right">
+		  </div>
+		<div class="right">
+		  <p><a href="https://www.springbyexample.org" target="_top">Spring by Example</a> has no direct affiliation with <a href="http://www.springframework.org/" rel="nofollow" target="_top">Spring Framework</a> or with <a href="http://www.springsource.com" rel="nofollow" target="_top">SpringSource</a>.</p>
+		</div>
+	 </div>
+<a name="PageBottom"></a>
+<p />
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3737499-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+</html>
