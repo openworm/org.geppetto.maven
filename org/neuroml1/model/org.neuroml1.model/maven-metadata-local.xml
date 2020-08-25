@@ -3,13 +3,14 @@
   <groupId>org.neuroml1.model</groupId>
   <artifactId>org.neuroml1.model</artifactId>
   <versioning>
-    <release>1.5.5</release>
+    <release>1.7.1</release>
     <versions>
       <version>1.5.2</version>
       <version>1.5.3</version>
       <version>1.5.4</version>
       <version>1.5.5</version>
+      <version>1.7.1</version>
     </versions>
-    <lastUpdated>20191105181740</lastUpdated>
+    <lastUpdated>20200825115624</lastUpdated>
   </versioning>
 </metadata>
